@@ -1,0 +1,24 @@
+{
+  "name": "demowebsiteusingseleniumframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests/Spec/demo.spec.js  --reporter-options reportDir=TestResults,charts=true,reportFilename=test-report,autoOpen=true --timeout=200000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "mocha": "^10.0.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
